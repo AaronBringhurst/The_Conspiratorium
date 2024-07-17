@@ -1,3 +1,5 @@
+import { User, Thought } from '../db/models/index.js';
+
 Router.get('/'), async (req, res) => {
     try{
         //routes here
