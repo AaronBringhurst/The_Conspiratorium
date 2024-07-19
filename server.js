@@ -1,4 +1,4 @@
-import routes from ".controllers/index.js"
+import routes from "./routes/index.js"
 import express from "express";
 import connectDB from './config/connection.js';
 

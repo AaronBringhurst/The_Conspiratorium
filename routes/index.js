@@ -1,12 +1,11 @@
 import express from 'express';
+import userRoutes from './users.js';
+import thoughtRoutes from './thoughts.js';
 
 const router = express.Router();
 
-import thoughts from '';
-import users from '';
-
-router.use('/users', users);
-router.use('/thoughts', thoughts);
+router.use('/users', userRoutes);
+router.use('/thoughts', thoughtRoutes);
 
 
 

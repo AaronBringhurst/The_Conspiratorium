@@ -7,7 +7,7 @@ import {
     deleteUser,
     addFriend,
     removeFriend
-} from '../../controllers/user-controller.js';
+} from '../controllers/users.js';
 
 const router = express.Router();
 
@@ -21,6 +21,9 @@ router.route('/:id')
     .get(getUserById)
     .put(updateUser)
     .delete(deleteUser);
+
+    router.route('/:thoughtId/reactions')
+    .post(addReaction);
 
 // /api/users/:userId/friends/:friendId
 router.route('/:userId/friends/:friendId')
