@@ -1,37 +1,14 @@
-import express from 'express'
+
 import { User, Thought } from '../db/models/index.js';
 
-Router.get('/'), async (req, res) => {
-    try{
-        //routes here
-    } catch (error) {
-        console.log('Your route dont wurk:', error);
+export const getAllUsers = async (req, res) => {
+    try {
+        const users = await User.find().select('-__v');
+        res.json(users);
+    } catch (err) {
+        res.status(500).json({ message: err.message });
     }
-}
-
-Router.get('/id:'), async (req, res) => {
-    try{
-        //routes here
-    } catch (error) {
-        console.log('Your route dont wurk:', error);
-    }
-}
-
-Router.post('/'), async (req, res) => {
-    try{
-        //routes here
-    } catch (error) {
-        console.log('Your route dont wurk:', error);
-    }
-}
-
-Router.put('/'), async (req, res) => {
-    try{
-        //routes here
-    } catch (error) {
-        console.log('Your route dont wurk:', error);
-    }
-}
+    };
 
 Router.delete('/'), async (req, res) => {
     try{

@@ -1,4 +1,4 @@
-import express from 'express';
+
 import { User, Thought } from '../db/models/index.js';
 
 

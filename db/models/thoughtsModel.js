@@ -38,4 +38,5 @@ const thoughtSchema = new mongoose.Schema({
 });
 
 const Thought = mongoose.model('Thought', thoughtSchema);
+
 export default Thought;
