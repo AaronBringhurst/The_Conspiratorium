@@ -22,9 +22,6 @@ router.route('/:id')
     .put(updateUser)
     .delete(deleteUser);
 
-    router.route('/:thoughtId/reactions')
-    .post(addReaction);
-
 // /api/users/:userId/friends/:friendId
 router.route('/:userId/friends/:friendId')
     .post(addFriend)
