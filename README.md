@@ -11,6 +11,7 @@ The Conspiratorium is a backend application that provides a RESTful API for a so
 - [License](#license)
 - [Contributing](#contributing)
 - [Questions](#questions)
+- [Video](#video)
 
 ## Installation
 To get started with the Social Network API, follow these steps:
@@ -84,3 +85,6 @@ If you have any questions about the project, feel free to reach out:
 
 - GitHub: [Aaron Bringhurst](https://github.com/AaronBringhurst)
 - Email: bringhurst.aaron@gmail.com
+
+## Video
+here is a link to me testing the routes: https://drive.google.com/file/d/1GOG6wSGikIER12Gf1RE7T6R-wb5EQqK3/view
