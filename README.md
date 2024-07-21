@@ -19,18 +19,18 @@ To get started with the Social Network API, follow these steps:
 1. Clone the repository:
 git clone https://github.com/AaronBringhurst/The_Conspiratorium
 cd  The_Conspiratorium
-Copy
+
 2. Install dependencies:
 npm install
-Copy
+
 3. Set up your MongoDB connection in `config/connection.js`.
 
 4. Seed the database (optional):
 npm run seed
-Copy
+
 5. Start the server:
 npm start
-Copy
+
 ## Usage
 
 After installation, the API will be available at `http://localhost:3001`. Use a tool like [Insomnia](https://insomnia.rest/) or [Postman](https://www.postman.com/) to test the API routes.
